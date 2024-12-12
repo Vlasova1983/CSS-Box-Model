@@ -1,0 +1,88 @@
+@import url('./reset.css');
+/* @import url('./normolize.css'); */
+@import url('./_vars.css');
+
+body{
+    color: var(--main-color);   
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* --------main---------- */
+main{
+    margin-top: 50px;
+    border: 25px solid var(--main-border-color);
+    background-color: var(--main-back-color);
+    padding:35px 110px ;
+    font-size: 22px;
+}
+.flex{
+    display: flex;
+    align-items: center;       
+}
+
+svg{
+    fill: var(--main-color);
+}
+.wrap{
+    border: 2px solid var(--main-color);
+    width: 1166px;
+    height: 592px;
+    margin: 35px 0;
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10,.box11{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    border: 2px solid var(--main-color); 
+    height: 143px;   
+}
+.box1,.box9{
+    width: 579px;    
+}
+
+.box1{
+    background-color: var(--color-box1);
+}
+
+.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box10{
+    width: 287.5px;      
+}
+.box2{
+   background-color: var(--color-box2); 
+}
+.box3{    
+    background-color: var(--color-box3);
+}
+.box4{   
+    background-color: var(--color-box4);
+}
+.box5{    
+    background-color: var(--color-box5);
+}
+.box6{    
+    background-color: var(--color-box6);
+}
+.box7{   
+    background-color: var(--color-box7);
+}
+.box8{    
+    background-color: var(--color-box8);
+}
+.box9{    
+    background-color: var(--color-box9);    
+}
+.box10{   
+    background-color: var(--color-box10);
+}
+.box11{     
+    width: 100%;   
+    background-color: var(--color-box11);
+}
+.footnote{
+    font-size: 16px;
+}
