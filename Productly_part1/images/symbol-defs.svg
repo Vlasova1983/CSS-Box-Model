@@ -1,7 +1,0 @@
-<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs>
-        <symbol id="icon-Triangle" viewBox="0 0 29 32">
-        <path fill="#f90" style="fill: var(--color3, #f90)" d="M26.697 14.367c1.245 0.733 1.245 2.534 0 3.266l-23 13.529c-1.263 0.743-2.855-0.168-2.855-1.633v-27.059c0-1.465 1.592-2.376 2.855-1.633l23 13.529z"></path>
-        </symbol>
-    </defs>
-</svg>
